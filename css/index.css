@@ -1,0 +1,39 @@
+header{
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+section{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    font-size: 30px;
+}
+footer{
+    height: 150px;
+    background-color: blue;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+footer ul{
+    text-decoration: none;
+}
+footer ul li{
+    display: inline-block;
+    margin-top: 30px;
+}
+footer ul li input{
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
