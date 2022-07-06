@@ -1,0 +1,46 @@
+*{
+    align-items: center;
+    text-align: center;
+    
+}
+body{
+    background-image: url(fondo-pantalla.png);
+}
+header{
+    color: white;
+    background-color: blue;
+}
+#canvas{
+    background-color: black;
+    width: 500px;
+    border: 10px solid rgba(0,0,255,0.5);
+    position: absolute;
+    left: 33%;
+}
+#replay{
+    margin-top: 550px;
+    padding: 20px 30px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#ui{
+    color: white;
+    position: absolute;
+    top: 200px;
+    z-index: 100;
+    left: 23%;
+    background-color: green;
+}
+@media only screen and (max-width: 1366px) {
+    header{
+        position: absolute;
+        opacity: 0;
+    }
+    #replay{
+        margin-top: 550px;
+        background-color: green;
+        color: white;
+        cursor: pointer;
+    }
+}
